@@ -1,5 +1,12 @@
 export interface User {
-  id: number;
+  id: string;
+  name: string;
+  email: string;
+  active: string;
+  role: string;
+}
+
+export interface UserMutation {
   name: string;
   email: string;
   active: boolean;
